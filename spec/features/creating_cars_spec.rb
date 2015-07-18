@@ -14,5 +14,7 @@ feature 'Creating Cars' do
     click_button 'Create Car'
 
     expect(page).to have_content('1968 Ford Mustang has been created')
+    expect(page).to have_table '#cars'
   end
+
 end
