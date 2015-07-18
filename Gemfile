@@ -48,3 +48,6 @@ gem 'guard-bundler'
 gem 'guard-rspec'
 gem 'factory_girl_rails'
 
+group :test do
+  gem 'capybara'
+end
