@@ -50,4 +50,5 @@ gem 'factory_girl_rails'
 
 group :test do
   gem 'capybara'
+  gem 'launchy'
 end

@@ -20,7 +20,7 @@ feature 'Creating Cars' do
       expect(page).to have_content('Ford')
       expect(page).to have_content('Mustang')
       expect(page).to have_content('1968')
-      expect(page).to have_content('2300')
+      expect(page).to have_content('$2,300.00')
     end
   end
 
@@ -49,14 +49,13 @@ feature 'Creating Cars' do
       expect(page).to have_content('Ford')
       expect(page).to have_content('Mustang')
       expect(page).to have_content('1968')
-      expect(page).to have_content('2300')
+      expect(page).to have_content('$2,300.00')
 
       expect(page).to have_content('Subaru')
       expect(page).to have_content('Impreza')
       expect(page).to have_content('2007')
-      expect(page).to have_content('12500')
-    end
+      expect(page).to have_content('$12,500.00')
   end
 end
-
+end
 
